@@ -61,6 +61,21 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+    <style>
+        @media (max-width: 991px) {
+    .main-header {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background-color: #fff; /* or your navbar background */
+    }
+
+    .mobile-nav__wrapper {
+        z-index: 1100; /* Make sure it's above content */
+    }
+}
+
+    </style>
 </head>
 
 <body>
@@ -1464,7 +1479,8 @@
 
             <div class="logo-box">
                 <a href="index.html" aria-label="logo image">
-                    <img src="assets/images/resources/logo-2.png" width="140" alt="" />
+                    <!-- <img src="assets/images/resources/logo-2.png" width="140" alt="" /> -->
+                    <img src="" width="140" alt="SS Engineering Logo" />
                 </a>
             </div>
             <!-- /.logo-box -->
@@ -1496,6 +1512,25 @@
         <!-- /.mobile-nav__content -->
     </div>
     <!-- /.mobile-nav__wrapper -->
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const mobileLinks = document.querySelectorAll('.mobile-nav__content a');
+        const toggler = document.querySelector('.mobile-nav__overlay');
+
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', function () {
+                // Simulate a click on the overlay to close mobile nav
+                if (window.innerWidth <= 991 && toggler) {
+                    toggler.click();
+                }
+            });
+        });
+    });
+</script>
+
+
+
 
     <div class="search-popup">
         <div class="search-popup__overlay search-toggler"></div>
