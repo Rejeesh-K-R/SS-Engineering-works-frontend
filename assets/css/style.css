@@ -376,7 +376,7 @@ ul {
   font-weight: 600;
   font-size: 14px;
   color: var(--erepair-black);
-  background-color: #cf2d20;
+  background-color: var(--erepair-base);
   padding: 15.5px 36px 15.5px;
   border-radius: 12px;
   moz-transition: all .4s ease-in-out;
@@ -391,7 +391,7 @@ ul {
 
 .thm-btn:before {
   content: "";
-  background-color: #000;
+  background-color: #cf2d20;
   height: 50%;
   position: absolute;
   top: 0;
@@ -414,7 +414,7 @@ ul {
 
 .thm-btn:after {
   content: "";
-  background-color: #000;
+  background-color: #cf2d20;
   height: 50%;
   position: absolute;
   bottom: 0;
