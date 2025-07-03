@@ -79,7 +79,7 @@
     line-height: 70px;
     text-align: center;
     font-size: 20px;
-    color: var(--erepair-base);
+    color: #d12f22;
     background-color: rgba(var(--erepair-black-rgb), .80);
     border-radius: 50%;
     transition: all 0.5s ease;

@@ -79,7 +79,7 @@
     bottom: 0;
     content: "";
     border-radius: 50%;
-    background-color: var(--erepair-base);
+    background-color: #000;
     transform: scale(0);
     transform-origin: center;
     transform-style: preserve-3d;
@@ -121,7 +121,7 @@
 }
 
 .services-one__title a:hover {
-    color: var(--erepair-base);
+    color: #d12f22;
 }
 
 .services-one__text br {
@@ -383,7 +383,7 @@
     left: 50%;
     top: -41px;
     transform: translateX(-50%);
-    background-color: var(--erepair-base);
+    background-color: #d12f22;
     border: 3px solid var(--erepair-white);
     border-radius: 50%;
 }
@@ -427,7 +427,7 @@
 }
 
 .service-three__title a:hover {
-    color: var(--erepair-base);
+    color: #d12f22;
 }
 
 .service-three__text {
@@ -457,7 +457,7 @@
 }
 
 .service-three__read-more a span {
-    color: var(--erepair-base);
+    color: #d12f22;
 }
 
 /*--------------------------------------------------------------

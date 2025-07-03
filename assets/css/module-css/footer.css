@@ -4,7 +4,7 @@
 .site-footer {
     position: relative;
     display: block;
-    background-color: var(--erepair-black);
+    background-color: var(--erepair-white);
     margin-top: -293px;
     overflow: hidden;
     z-index: 1;
@@ -38,7 +38,7 @@
 }
 
 .footer-widget__about-text {
-    color: #DDDDDD;
+    color: #000;
     margin-top: 24px;
     margin-bottom: 25px;
 }
@@ -89,7 +89,7 @@
     left: 0;
     right: 0;
     height: 100%;
-    background-color: var(--erepair-primary);
+    background-color: #d12f22;
     -webkit-transition-delay: .1s;
     transition-delay: .1s;
     -webkit-transition-timing-function: ease-in-out;

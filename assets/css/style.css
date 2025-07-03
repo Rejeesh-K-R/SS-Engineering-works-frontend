@@ -246,7 +246,7 @@ ul {
   display: inline-block;
   font-size: 16px;
   line-height: 16px;
-  color: var(--erepair-base);
+  color: #d12f22;
   font-weight: 700;
   font-family: var(--erepair-font-2);
   text-transform: uppercase;
@@ -287,7 +287,7 @@ ul {
   display: inline-block;
   font-size: 16px;
   line-height: 16px;
-  color: var(--erepair-base);
+  color: #d12f22;
   font-weight: 400;
   font-family: var(--erepair-font-2);
   text-transform: capitalize;
@@ -376,7 +376,7 @@ ul {
   font-weight: 600;
   font-size: 14px;
   color: var(--erepair-black);
-  background-color: var(--erepair-primary);
+  background-color: #cf2d20;
   padding: 15.5px 36px 15.5px;
   border-radius: 12px;
   moz-transition: all .4s ease-in-out;
@@ -391,7 +391,7 @@ ul {
 
 .thm-btn:before {
   content: "";
-  background-color: var(--erepair-base);
+  background-color: #000;
   height: 50%;
   position: absolute;
   top: 0;
@@ -414,7 +414,7 @@ ul {
 
 .thm-btn:after {
   content: "";
-  background-color: var(--erepair-base);
+  background-color: #000;
   height: 50%;
   position: absolute;
   bottom: 0;
@@ -471,7 +471,7 @@ ul {
   animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  background-image: url(../images/loader.png);
+  background-image: url(../images/ssimages/logo.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 60px auto;
@@ -1170,7 +1170,7 @@ ul {
 .main-menu .main-menu__list>li:hover>a,
 .stricky-header .main-menu__list>li.current>a,
 .stricky-header .main-menu__list>li:hover>a {
-  color: var(--erepair-base);
+  color: #d12f22;
 }
 
 .main-menu .main-menu__list>li>a::before,
@@ -1178,7 +1178,7 @@ ul {
   content: "";
   height: 2px;
   border-radius: 0px;
-  background-color: var(--erepair-base);
+  background-color: #d12f22;
   position: absolute;
   bottom: -3px;
   left: 0px;
@@ -1465,7 +1465,7 @@ ul {
 
 .mobile-nav__content {
   width: 300px;
-  background-color: var(--erepair-black);
+  background-color: #fff;
   z-index: 10;
   position: relative;
   height: 100%;
@@ -1529,7 +1529,7 @@ ul {
 .mobile-nav__content .main-menu__list>li:not(:last-child),
 .mobile-nav__content .main-menu__list>li>ul>li:not(:last-child),
 .mobile-nav__content .main-menu__list>li>ul>li>ul>li:not(:last-child) {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .mobile-nav__content .main-menu__list>li>a>.main-menu-border {
@@ -1546,7 +1546,7 @@ ul {
   -ms-flex-pack: justify;
   justify-content: space-between;
   line-height: 30px;
-  color: #ffffff;
+  color: #000;
   font-size: 14px;
   font-family: var(--erepair-font);
   font-weight: 500;
@@ -1741,7 +1741,7 @@ ul {
 .main-menu-two__top {
   position: relative;
   display: block;
-  background-color: var(--erepair-primary);
+  background-color: #d12f22;
 }
 
 .main-menu-two__top-inner {
@@ -2407,7 +2407,7 @@ ul {
 
 .video-one__btn {
   color: var(--erepair-white);
-  background-color: var(--erepair-base);
+  background-color: #000;
 }
 
 .video-one__btn:hover {
@@ -2416,7 +2416,7 @@ ul {
 
 .video-one__btn::before,
 .video-one__btn::after {
-  background-color: var(--erepair-primary);
+  background-color: #d12f22;
 }
 
 .video-one__btn-two {
@@ -2471,7 +2471,7 @@ ul {
 
 .cta-one__btn::before,
 .cta-one__btn::after {
-  background-color: var(--erepair-black);
+  background-color: #d12f22;
 }
 
 .about-two__btn {

@@ -97,14 +97,14 @@
     justify-content: center;
     height: 50px;
     width: 50px;
-    background-color: var(--erepair-base);
+    background-color: #000;
     border-radius: 50%;
     font-size: 16px;
     color: var(--erepair-white);
 }
 
 .project-one__arrow a:hover {
-    background-color: var(--erepair-primary);
+    background-color: #d12f22;
     color: var(--erepair-black);
 }
 
@@ -155,7 +155,7 @@
 }
 
 .project-one__title a:hover {
-    color: var(--erepair-base);
+    color: #d12f22;
 }
 
 /*--------------------------------------------------------------
