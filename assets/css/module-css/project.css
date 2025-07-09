@@ -97,14 +97,14 @@
     justify-content: center;
     height: 50px;
     width: 50px;
-    background-color: #000;
+    background-color: #21211f;
     border-radius: 50%;
     font-size: 16px;
     color: var(--erepair-white);
 }
 
 .project-one__arrow a:hover {
-    background-color: #d12f22;
+    background-color: #e30000;
     color: var(--erepair-black);
 }
 
@@ -155,7 +155,7 @@
 }
 
 .project-one__title a:hover {
-    color: #d12f22;
+    color: #e30000;
 }
 
 /*--------------------------------------------------------------

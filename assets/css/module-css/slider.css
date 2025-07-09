@@ -71,7 +71,7 @@
     right: 495px;
     height: 1025px;
     width: 80px;
-    background: linear-gradient(180deg, #fe645c 0%, #983737 100%);
+    background: linear-gradient(180deg, #ff4d4d 0%, #e30000 100%);
     clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
     transform: rotate(52deg) translateX(50px);
     opacity: 0;
@@ -147,7 +147,7 @@
     display: block;
     height: 1px;
     width: 95px;
-    background-color: #d12f22;
+    background-color: #e30000;
 }
 
 .main-slider__title {
@@ -178,7 +178,7 @@
     bottom: 3px;
     height: 3px;
     width: 325px;
-    background-color: #d12f22;
+    background-color: #e30000;
 }
 
 .main-slider__text {

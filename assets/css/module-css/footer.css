@@ -4,7 +4,7 @@
 .site-footer {
     position: relative;
     display: block;
-    background-color: var(--erepair-white);
+    background-color: #f3f3f3;
     margin-top: -293px;
     overflow: hidden;
     z-index: 1;
